@@ -1,8 +1,10 @@
-from github_spider.Requester.BaseRequester import BaseRequester
-from github_spider.Parser.Parser import Parser
-from github_spider.util.util import Util
-from github_spider.threadpool.ThreadPool import ThreadPool
-from github_spider.Entity.UserEntity import UserEntity
+import sys
+sys.path.append("..") 
+from Requester.BaseRequester import BaseRequester
+from Parser.Parser import Parser
+from util.util import Util
+from threadpool.ThreadPool import ThreadPool
+from Entity.UserEntity import UserEntity
 import time
 import requests
 import random

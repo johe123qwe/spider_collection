@@ -1,4 +1,6 @@
-from github_spider.util.util import Util
+import sys
+sys.path.append("..") 
+from util.util import Util
 import time
 import threading
 import os
