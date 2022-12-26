@@ -17,7 +17,6 @@ def getMusic(ID,path):
         print("访问成功，正在下载.....")
         with open(path,'wb') as f:
             f.write(tmp.content)
-        f.close()
         print("下载成功")
     except:
         print("下载失败")
